@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "admin-service": {
+      "root": "admin-service",
+      "framework": "express"
+    },
+    "frontend": {
+      "root": "frontend",
+      "framework": "vite"
+    },
+    "song-service": {
+      "root": "song-service",
+      "framework": "express"
+    },
+    "user-service": {
+      "root": "user-service",
+      "framework": "express"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
+    }
+  ]
+}
