@@ -7,14 +7,14 @@ It allows users to explore albums and songs, manage playlists, and enjoy a smoot
 
 ## 🔗 Project Links
 
-- **Live Project:** [SoundNode Live](http://13.60.51.13:7000)
+- **Live Project:** [SoundNode Live](https://frontend-soundnode.vercel.app/)
 - **GitHub Repository:** [SoundNode GitHub](https://github.com/RushikeshD1/Spotify-App)
 
 ### 🔧 Backend Services
 
-- **User Service:** [User Service](YOUR_USER_SERVICE_URL)
-- **Song Service:** [Song Service](YOUR_SONG_SERVICE_URL)
-- **Album Service:** [Album Service](YOUR_ALBUM_SERVICE_URL)
+- **User Service:** [User Service](https://user-soudnode.onrender.com)
+- **Song Service:** [Song Service](https://song-soundnode.onrender.com)
+- **Album Service:** [Album Service](https://admin-soundnode.onrender.com)
 
 ---
 
