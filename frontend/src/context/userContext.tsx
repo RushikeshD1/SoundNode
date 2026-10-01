@@ -8,7 +8,7 @@ import React, {
 } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
-const server = "http://13.53.174.55:5000";
+const server = "https://user-soudnode.onrender.com";
 
 export interface User {
   _id: string;

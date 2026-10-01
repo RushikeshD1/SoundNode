@@ -3,6 +3,11 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import userRoutes from "./route.js";
 import cors from "cors";
+import dns from "node:dns";
+dns.setServers([
+    "8.8.8.8",
+    "8.8.4.4"
+]);
 const connectDb = async () => {
     try {
         mongoose.connect(process.env.MONGO_URI, {
@@ -21,7 +26,7 @@ app.use(express.json());
 app.use("/api/v1", userRoutes);
 app.get("/", (req, res) => res.send("Server is working"));
 const port = process.env.PORT || 3000;
-app.listen(5000, () => {
+app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
     connectDb();
 });
